@@ -1,0 +1,43 @@
+name: trust_sync_demo
+description: A Context & Identity Engine Demo using TrustSync logic.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Networking
+  http: ^1.2.0
+
+  # Notifications
+  flutter_local_notifications: ^17.0.0
+
+  # Permissions (Required for Android 13+ Notifications)
+  permission_handler: ^11.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  
+  flutter_launcher_icons: ^0.13.1
+  change_app_package_name: ^1.1.0
+
+flutter:
+  uses-material-design: true
+  
+
+  assets:
+    - assets/icon.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png" 
+  min_sdk_android: 21
+  adaptive_icon_background: "#caeffc" 
+  adaptive_icon_foreground: "assets/icon.png"
