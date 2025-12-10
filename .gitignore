@@ -1,0 +1,65 @@
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+.lock
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Flutter specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Dependency files
+pubspec.lock
+
+# Generated files
+build/
+coverage/
+generated_plugin_registrant.dart
+
+# iOS
+**/Pods/
+**/Runner.xcworkspace/
+**/Runner.xcodeproj/project.xcworkspace/
+**/Runner.xcodeproj/xcuserdata/
+**/Runner.xcworkspace/xcuserdata/
+**/Flutter/Flutter.framework
+**/Flutter/Flutter.podspec
+**/Flutter/Generated.xcconfig
+**/Flutter/App.framework
+
+# Android
+**/local.properties
+**/.gradle/
+**/captures/
+**/gradlew
+**/gradlew.bat
+**/gradle-wrapper.jar
+**/gradle/wrapper/
+**/build/
+
+# Web
+**/web/.dart_tool/
+**/web/.packages
+
+# Others
+*.tmp
