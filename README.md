@@ -170,6 +170,8 @@ flutter run
 
 ---
 
-## I have hosted the TrustSync Engine backend here https://trustsync-api.onrender.com/home.html for demonstration. 
-## Later I will be hosting the flutter app linked with the backend and provide the link here for easy access without installing anything
----
+**I have hosted the TrustSync Engine backend here:**  
+https://trustsync-api.onrender.com/home.html
+
+**Later I will be hosting the Flutter app linked with the backend and provide the link here for easy access without installation.**
+
