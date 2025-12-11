@@ -23,6 +23,14 @@ Instead of blindly sending an SMS, the engine analyzes the user's **real-time co
 
 ---
 
+## 🚀 **Live Demo Notice**  
+The complete **TrustSync Web App** and **TrustSync Engine** demo links are available  
+at the end of this **README**.  
+  
+Keep reading to understand the system — and then try it live in your browser!
+
+---
+
 ## 🧠 **Core Features**
 
 ### **1. ⚡ Intelligent Routing & Smart Fallback**
@@ -173,5 +181,41 @@ flutter run
 **I have hosted the TrustSync Engine backend here:**  
 https://trustsync-api.onrender.com/home.html
 
-**Later I will be hosting the Flutter app linked with the backend and provide the link here for easy access without installation.**
+---
+
+**Later I will be hosting the Flutter app linked with the backend and provide the link here for easy access without installation. (Updated)**
+
+---
+
+## 🌐 **TrustSync Web App (Hosted Version)**
+
+**Here is the link to access TrustSync as a Web App:**  
+👉 https://trustsync.netlify.app/
+
+### 🔔 **Important Step — Enable Notifications**
+While on the onboarding page, click **“Enable Browser Notifications”** and then select **Allow**.  
+This step is **mandatory** for receiving real-time notifications.
+
+---
+
+## 🧪 **How to Test Using the TrustSync Engine**
+
+Once notifications are enabled:
+
+- You can toggle any settings inside the **Backend Simulator** to test various scenarios.
+- The **Web App** will display notifications based on the selected scenario.
+- All routing logic and decisions are visible in the **Dashboard**.
+- **Fallback** happens automatically through the routing chain.
+
+⏱️ A small timer has been added to trigger fallback automatically.  
+If you **don't** want fallback to occur, simply click **“Simulate ACK”**, which tells the system that the user has acknowledged the notification.
+
+---
+
+## 📱 **Recommended Experience**
+
+Although the web app works fully,  
+**I strongly recommend using the Flutter mobile app for the best, smoothest experience.**
+
+---
 
