@@ -198,6 +198,8 @@ https://trustsync-api.onrender.com/home.html
 While on the onboarding page, click **“Enable Browser Notifications”** and then select **Allow**.  
 This step is **mandatory** for receiving real-time notifications.
 
+⚠️**Note**: *The TrustSync Web App is optimized for **desktop** as of now. If you're viewing it on mobile, please switch to **Desktop Mode** to avoid any layout or interaction issues.*
+
 ---
 
 ## 🧪 **How to Test Using the TrustSync Engine**
@@ -217,7 +219,7 @@ If you **don't** want fallback to occur, simply click **“Simulate ACK”**, wh
 ## 📱 **Recommended Experience**
 
 Although the web app works fully,  
-**I strongly recommend using the Flutter mobile app for the best, smoothest experience.**
+**I strongly recommend using the Flutter mobile app for a better experience.**
 
 ---
 
