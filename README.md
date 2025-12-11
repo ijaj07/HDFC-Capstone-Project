@@ -148,7 +148,7 @@ TrustSync prioritizes delivery channels based on user state:
 ### **1. Start the Backend**
 
 ```bash
-cd backend
+cd TrustSync Backend
 npm install
 node index.js
 ```
