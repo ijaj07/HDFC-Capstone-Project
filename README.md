@@ -43,7 +43,7 @@ TrustSync prioritizes delivery channels based on user state:
   → *Latency: <100ms | Cost: $0*
 * **Background (Online):** Sends a **Secure Push Notification**.
 * **No Response?** Auto fallback chain:
-  **Push → WhatsApp → SMS** (triggered if no ACK within 5s)
+  **Push → WhatsApp → SMS** (triggered if no ACK within the time frame)
 
 ---
 
