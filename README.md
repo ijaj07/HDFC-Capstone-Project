@@ -10,6 +10,8 @@ In today’s digital banking ecosystem, notification systems are fundamentally b
 
 * **Security Risks:** SMS Sender IDs are easily spoofed (phishing).
 * **High Latency:** Critical OTPs often take *10–30 seconds* via carrier networks.
+* **Delivery Failures:** OTPs can fail entirely and never reach the user.
+* **No Smart Fallback:** If one channel fails, there’s no automated retry logic.
 * **High Cost:** Banks pay for every SMS—even if the user is currently active inside the app.
 * **User Anxiety:** Users can’t distinguish between genuine bank alerts and scams.
 
@@ -57,8 +59,8 @@ TrustSync prioritizes delivery channels based on user state:
 
 ### **3. 🪞 Mirror Box Protocol (Anti-Phishing Layer)**
 
-**The Problem:** Users don’t trust SMS notifications.
-**The Fix:** Every genuine notification—regardless of channel—is **mirrored inside the App’s Secure Inbox**.
+**The Problem:** Users don’t fully trust SMS or WhatsApp notifications due to spoofing risks.
+**The Fix:** In the Prototype, trusted visual markers are added to SMS and WhatsApp alerts—but we take security a step further by mirroring every genuine notification inside the app’s **Secure Inbox**, ensuring users always have a verified source of truth. 
 
 💡 **User Rule:**
 
